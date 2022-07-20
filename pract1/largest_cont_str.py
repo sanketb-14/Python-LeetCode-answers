@@ -10,9 +10,7 @@ def long(s):
       left=max(left,m[el] +1)
     m[el]=right
     ans = max(ans , right - left +1)
-    
     right += 1
-  return m  
    
   return ans
       
@@ -28,4 +26,4 @@ def long(s):
 
 
 
-print(long("abcabcdef"))
+print(long("dvdf"))
